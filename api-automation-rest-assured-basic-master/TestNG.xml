@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Parallel Test Suite" parallel="tests" thread-count="2">
+
+<test name="Parallel Positive and Negative Test Cases" >
+<classes>
+<class name="PositiveNegtiveCasesApiTest"/>
+</classes>
+</test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
+
+
